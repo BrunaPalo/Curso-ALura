@@ -1,0 +1,31 @@
+<meta charset="UTF-8">
+
+<script>
+
+    function pulaLinha() {
+
+        document.write("<br>");
+        document.write("<br>");
+
+}
+
+    function mostra(frase) {
+
+        document.write(frase);
+        pulaLinha();
+}
+
+function calculaImc(peso, altura) {
+    return peso / (altura * altura);
+    
+
+}
+
+var imcBru = calculaImc(55, 1.60);
+
+mostra("O IMC da Bruna é " + imcBru);
+
+
+
+
+</script>
